@@ -58,24 +58,6 @@ Please follow the steps to whitelist domains for CORS.
 
 Example: If you are hosting your application integrated with Lumin SDK on demo.abc.com then, you must add demo.abc.com to the whitelist domain list to allow CORS.
 
-## CORS
-
-CORS is applicable, if your application intends to access Lumin resources through the Lumin SDK/APIs from your application across origins.
-
-Developers must whitelist your domains in the Developer Console to authorize your application to call Lumin through SDK or API end point and access resources.
-
-Please follow the steps to whitelist domains for CORS.
-
-* Login to your Lumin Instance
-
-* Navigate to Developer Console → Secret Management tab.
-
-* Create Secret if not created and click on Edit for the Secret.
-
-* Add your domain in the Whitelist domain → Save.
-
-Example: If you are hosting your application integrated with Lumin SDK on demo.abc.com then, you must add demo.abc.com to the whitelist domain list to allow CORS.
-
 
 ## Initializing Font Family
 After setting .env variables, go to public directory of your application and put below snippet in index.html in <head></head> tag.

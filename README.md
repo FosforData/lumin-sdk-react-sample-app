@@ -39,6 +39,7 @@ REACT_APP_LUMIN_SDK_ENV = dev/prod
 ```
 Note: 
 * If you're running it locally, mention `REACT_APP_LUMIN_SDK_ENV=dev`, otherwise it would be `REACT_APP_LUMIN_SDK_ENV=prod`
+* Current sample app comes with all the below setup code except `.env` file. Post creation and updation of `.env`, it is ready to use.
 
 ## CORS
 

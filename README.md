@@ -258,7 +258,7 @@ const ExampleComponent = () => {
 
 export default ExampleComponent;
 ```
-## Lumin SDK documentation
+## Documentation
 Visit - https://docs.lumin.fosfor.com/
 
 ## Contributor

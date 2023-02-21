@@ -1,22 +1,19 @@
 
 # Introduction to Lumin
 
-The fastest way to get to the business insights that matter most! An AI-powered decision intelligence product, Lumin is designed for everyone, to analyze data and share insights in seconds. Lumin instantaneously spots anomalies, trends, and patterns, and reveals insights on why something happened, what changed, what is the impact, and what will come next – and it does so autonomously, without relying on data experts or complex coding skills. Register at - https://lumin.fosfor.com/#/
+The fastest way to get to the business insights that matter most! An AI-powered decision intelligence product, Lumin is designed for everyone, to analyze data and share insights in seconds. Lumin instantaneously spots anomalies, trends, and patterns, and reveals insights on why something happened, what changed, what is the impact, and what will come next – and it does so autonomously, without relying on data experts or complex coding skills. Get started at - https://www.fosfor.com/lumin/
 
-# What is Lumin SDK?
+# Lumin SDK
 
-The Lumin SDK provides what developers need to know step-by-step to successfully integrate Lumin components with their web application in an simple way. Lumin SDK comes with different javascript based library/framework such React, Angular that enables the developers to integrate different Lumin widgets within their existing web application effectively in a secured way. The library provides modular widgets for importing various Lumin functionalities such as Ask, Nudges, Workspace, etc.
+Lumin SDK enables the developers to integrate different Lumin widgets within their existing web application effectively in a secured way. It comes with different JavaScript based library/framework such as React, Angular and  provides modular widgets for importing various Lumin capabilities such as Ask, Workspace and Nudges.
 
 # Pre-requisites
 
 Listed below are the pre-requisites for successfull integration with Lumin SDK.
 
 * Developer Console is enabled for your account.
-
 * SDK secret is created in the Developer Console (Please contact Super Admin or Support Team for enabling the SDK secret).
-
 * Ensure the Users of your application are available or added in your Lumin account.
-
 * Your application domain is Whitelisted for the Secret in “Secret Management” section of Developer Console for CORS.
 
 If you want to have custom theme for the Lumin SDK components, make necessary changes in the Developer Console.
@@ -50,11 +47,8 @@ Developers must whitelist your domains in the Developer Console to authorize you
 Please follow the steps to whitelist domains for CORS.
 
 * Login to your Lumin Instance
-
 * Navigate to Developer Console → Secret Management tab.
-
 * Create Secret if not created and click on Edit for the Secret.
-
 * Add your domain in the Whitelist domain → Save.
 
 Example: If you are hosting your application integrated with Lumin SDK on demo.abc.com then, you must add demo.abc.com to the whitelist domain list to allow CORS.
@@ -69,7 +63,6 @@ After setting .env variables, go to public directory of your application and put
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' />
-
 ```
 
 ## Authentication
